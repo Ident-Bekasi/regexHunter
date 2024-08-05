@@ -1,0 +1,166 @@
+repo_name: Ident-Bekasi/regexHunter
+report_id: aa767300657558b444131bd574f13686
+version: 0.1
+repo_type: Public
+timestamp: '2024-08-05T20:24:26+00:00'
+requested_by: securi3ytalent
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter
+  detection_source: Repo Metadata
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: fs
+  description: This package name is not currently in use, but was formerly occupied
+    by another package
+  package_url: https://www.npmjs.com/fs
+  version: 0.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16098/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: https
+  description: Https mediation
+  package_url: https://www.npmjs.com/https
+  version: 1.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17546/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: node-fetch
+  description: A light-weight module that brings window.fetch to node.js
+  package_url: https://www.npmjs.com/node-fetch
+  version: 3.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: readline
+  description: Simple streaming readline module
+  package_url: https://www.npmjs.com/readline
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17372/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  version: 0.11.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/Ident-Bekasi/regexHunter/blob/main/package-lock.json
+  detection_source: package.json
+  last_updated_by: securi3ytalent
+  last_updated_on: 2024-04-14 20:25:42.000000000 Z
